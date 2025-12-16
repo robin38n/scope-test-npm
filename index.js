@@ -7,12 +7,4 @@ const express = require('express');
   });
 
   app.listen(3000, () => console.log('Server running'));
-  EOF
-
-  # Create .gitignore
-  cat > .gitignore << 'EOF'
-  node_modules/
-  .env
-  EOF
-:wq
-
+  
